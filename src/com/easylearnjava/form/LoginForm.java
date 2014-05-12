@@ -60,11 +60,11 @@ public class LoginForm extends ActionForm {
 	    return errors_msg;
 	}
 	
+	// Used to reset the bean properties
+	// Called before the properties are re-populated by the controller
 	@Override
 	public void reset(ActionMapping mapping, HttpServletRequest request) {
-		// reset properties
-		username = "";
-		password = "";
+		super.reset(mapping, request);
 	}
 
 }

@@ -17,6 +17,11 @@
 			<forward name="success" path="/loginSuccess.jsp" />
 			<forward name="failure" path="/login.jsp" />
 		</action>
+		
+		<action path="/logout" type="com.easylearnjava.action.LogoutAction"
+			name="loginNewForm" validate="false">
+			<forward name="success" path="/login.jsp" />
+		</action>
 	</action-mappings>
 
 	<!-- Register the message properties file -->

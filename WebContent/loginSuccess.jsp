@@ -14,7 +14,7 @@
 
 	<table class="logout">
 		<tr>
-			<td><a href="login.jsp"> Log Out ...</a></td>
+			<td><a href="logout.do"> Log Out ...</a></td>
 		</tr>
 		<tr>
 			<td class="success">Welcome <b><%=user%></b> you have successfully

@@ -25,6 +25,6 @@
 	</action-mappings>
 
 	<!-- Register the message properties file -->
-	<message-resources parameter="com.easylearnjava.properties.Message" />
+	<message-resources parameter="com.easylearnjava.properties.message" />
 
 </struts-config>

@@ -59,11 +59,11 @@
 
 		<table align="center">
 			<tr>
-				<td align="right"><bean:message key="label.username.value" />:</td>
+				<td align="right"><bean:message key="label.username.value" /> :</td>
 				<td align="left"><html:text property="username" styleId="userid" maxlength="20" /></td>
 			</tr>
 			<tr>
-				<td align="right"><bean:message key="label.password.value" />:</td>
+				<td align="right"><bean:message key="label.password.value" /> :</td>
 				<td align="left"><html:password property="password" styleId="password"
 						maxlength="15" /></td>
 			</tr>

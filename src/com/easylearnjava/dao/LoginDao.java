@@ -4,8 +4,6 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
-import org.apache.struts.action.ActionMessage;
-
 import com.easylearnjava.exception.ServiceException;
 import com.easylearnjava.util.DBConnection;
 
@@ -36,8 +34,7 @@ public class LoginDao {
 			dbConn.closeConnection();
 		} catch (Exception ex) {
 			ex.printStackTrace(); 
-			ActionMessage msg = new ActionMessage("global.exception.message");
-			throw new ServiceException(msg.toString());
+			throw new ServiceException();
 		}
 		return passwordFromDB;
 	}

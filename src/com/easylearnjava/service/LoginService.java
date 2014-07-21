@@ -30,8 +30,7 @@ public class LoginService {
 			if (!(ex instanceof DaoException)) {
 				ex.printStackTrace();
 			}
-			ActionMessage msg = new ActionMessage("global.exception.message");
-			throw new ServiceException(msg.toString());
+			throw new ServiceException();
 		}
 		return false;
 	}
